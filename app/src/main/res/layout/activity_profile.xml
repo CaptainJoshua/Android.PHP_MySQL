@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="@string/email"
+        android:textSize="24sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Text"
+        android:textSize="24sp"
+        android:textColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="User Name"
+        android:textSize="24sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Text"
+        android:textSize="24sp"
+        android:textColor="@color/teal_700"/>
+
+</LinearLayout>
